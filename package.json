@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"OK\" && exit 0"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",

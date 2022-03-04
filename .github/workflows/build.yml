@@ -3,6 +3,9 @@
 
 name: docker_image_build
 
+env:
+  ENVIORMENT: CI
+
 on:
   push:
     branches: [ master ]

@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/hello', (req, res) => {
-  res.send('안녕')
+  res.send('안녕 하세요')
 })
 
 app.listen(PORT, '0.0.0.0',() => {

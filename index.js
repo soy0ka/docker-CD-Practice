@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 2323
 
 const app = express()
 app.get('/', (req, res) => {
-  res.send('Hello World')
+  res.send('Bye World')
 })
 
 app.get('/pmh', (req, res) => {

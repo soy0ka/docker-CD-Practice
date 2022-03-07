@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/pmh', (req, res) => {
-  res.send('pmh babo')
+  res.send('pmh babo :v')
 })
 
 app.listen(PORT, '0.0.0.0',() => {

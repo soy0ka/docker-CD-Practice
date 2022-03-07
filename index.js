@@ -9,8 +9,8 @@ app.get('/', (req, res) => {
   res.send('Bye World')
 })
 
-app.get('/bung', (req, res) => {
-  res.send('벙벙')
+app.get('/hello', (req, res) => {
+  res.send('안녕')
 })
 
 app.listen(PORT, '0.0.0.0',() => {

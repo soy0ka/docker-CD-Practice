@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/bung', (req, res) => {
-  res.send('벙')
+  res.send('벙벙')
 })
 
 app.listen(PORT, '0.0.0.0',() => {

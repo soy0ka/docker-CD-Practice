@@ -15,7 +15,9 @@ app.get('/cake', (req, res) => {
 
 app.get('/', (req, res) => {
   res.send('Bye World')
-})app.get('/hello', (req, res) => {
+})
+
+app.get('/hello', (req, res) => {
   res.send('Hello World')
 })
 

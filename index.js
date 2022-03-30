@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/cake', (req, res) => {
-  res.send('bake the cake')
+  res.send('bake the cake~~')
 })
 
 app.get('/', (req, res) => {
